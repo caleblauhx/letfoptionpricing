@@ -96,9 +96,9 @@ Implements:
 
 Quadratic variation is treated as a **total** quantity:
 
-\[
+$$
 QV_{[0,T]}=\int_0^T \sigma_t^2\,dt.
-\]
+$$
 
 An annualised variance measure is obtained by dividing total QV by the year fraction when required. The model-free option-strip formula therefore returns total QV rather than an ATM implied-volatility square.
 
