@@ -527,13 +527,13 @@ And that mean is available model-free from the option strip through (9).
 The first-order approximation discards the randomness of realised variance. Carrying the Taylor expansion to second order yields
 
 $$
-\boxed{ C_L(K,T) \approx c(F_L,K,k^2QV_T^{\mathbb Q}) + \frac12k^4 \operatorname{Var}^{\mathbb Q} (QV_{[0,T]}) \left. \partial_{ww}c \right|_{w=k^2QV_T^{\mathbb Q}}. } \tag{17}
+\boxed{ C_L(K,T) \approx c(F_L,K,k^2QV_T^{\mathbb Q}) + \frac12k^4 \mathrm{Var}^{\mathbb Q} (QV_{[0,T]}) \left. \partial_{ww}c \right|_{w=k^2QV_T^{\mathbb Q}}. } \tag{17}
 $$
 
 The new input is therefore
 
 $$
-\operatorname{Var}^{\mathbb Q}(QV_{[0,T]}).
+\mathrm{Var}^{\mathbb Q}(QV_{[0,T]}).
 $$
 
 More generally, expanding to all orders gives
@@ -603,7 +603,7 @@ $$
 and
 
 $$
-\operatorname{Var}^{\mathbb Q}(QV_{[0,T]})
+\mathrm{Var}^{\mathbb Q}(QV_{[0,T]})
 $$
 
 are non-degenerate model outputs.
@@ -643,7 +643,7 @@ can be extracted from vanilla option prices through the replicating portfolio in
 The LETF option price can be expanded in the risk-neutral moments of realised variance. The first-order approximation requires only $QV_T^{\mathbb Q}$; the second-order correction additionally requires
 
 $$
-\operatorname{Var}^{\mathbb Q}(QV_{[0,T]}),
+\mathrm{Var}^{\mathbb Q}(QV_{[0,T]}),
 $$
 
 and higher-order corrections require higher moments.
